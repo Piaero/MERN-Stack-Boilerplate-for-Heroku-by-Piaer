@@ -72,8 +72,8 @@ Launches only the the server (backend/server.js)
 
 This boilerplate is based on 2 articles:
 
-MERN configuration:
+* MERN configuration:
 https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/
 
-MongoDB configuration based on cloud service MongoDB Atlas:
+* MongoDB configuration based on cloud service MongoDB Atlas:
 https://zellwk.com/blog/crud-express-mongodb/
