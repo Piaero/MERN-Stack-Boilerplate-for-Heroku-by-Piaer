@@ -5,9 +5,13 @@
 **MERN** stands for:
 
 **M**ongoDB - document database. For Heroku deployment I am suggesting to keep database in cloud service, eg. MongoDB Atlas (https://www.mongodb.com/cloud/atlas)
+
 **E**xpressJS - web framework for Node.js
+
 **R**eact - a JavaScript library for building user interfaces (frontend)
+
 **N**ode.js - back-end JavaScript runtime environment 
+
 
 ## Installation
 1. Clone this repository
