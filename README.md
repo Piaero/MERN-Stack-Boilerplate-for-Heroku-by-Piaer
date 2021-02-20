@@ -14,7 +14,7 @@
 
 
 ## Installation
-1. Clone this repository
+1. Click on "Use this template" in web version of Github or traditionally clone this repository
 2. Install Node.js: https://nodejs.org/en/
 3. Database setting:
     **a) if you are using Cloud Database (eg. MongoDB Atlas):**
