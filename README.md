@@ -15,7 +15,8 @@
 
 ## Installation
 1. Clone this repository
-2. Database setting:
+2. Install Node.js: https://nodejs.org/en/
+3. Database setting:
     **a) if you are using Cloud Database (eg. MongoDB Atlas):**
 
         1) Create in .env file in root directory
@@ -40,8 +41,8 @@
             })
                
 
-3. Change name and author of the project in package.json on root directory and in package.json inside frontend folder
-4. Run backend and app with **yarn dev**
+4. Change name and author of the project in package.json on root directory and in package.json inside frontend folder
+5. Run backend and app with **yarn dev**
 
 ## Additional features
 
