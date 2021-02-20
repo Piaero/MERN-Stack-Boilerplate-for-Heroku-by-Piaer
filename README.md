@@ -2,7 +2,7 @@
 
 ## MERN Stack
 
-**MERN** stands for:
+**MERN** is  a free and open-source JavaScript software stack for building dynamic web sites and web applications. The acronym stands for:
 
 **M**ongoDB - document database. For Heroku deployment I am suggesting to keep database in cloud service, eg. MongoDB Atlas (https://www.mongodb.com/cloud/atlas)
 
