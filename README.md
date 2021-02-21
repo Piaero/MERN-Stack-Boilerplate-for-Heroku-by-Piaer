@@ -16,7 +16,9 @@
 ## Installation
 1. Click on "Use this template" in web version of Github or traditionally clone this repository
 2. Install Node.js: https://nodejs.org/en/
-3. Database setting:
+3. If you don't have, instal yarn trough npm (you should have installed npm by installing node.js): ```npm install --global yarn```
+4. Run ```yarn install``` command on root directory but also in frontend folder
+5. Database setting:
     **a) if you are using Cloud Database (eg. MongoDB Atlas):**
 
         1) Create in .env file in root directory
@@ -40,9 +42,8 @@
                 console.log('Connected to Database')
             })
                
-
-4. Change name and author of the project in package.json on root directory and in package.json inside frontend folder
-5. Run backend and app with **yarn dev**
+6. Change name and author of the project in package.json on root directory and in package.json inside frontend folder
+7. Run backend and app with ```yarn dev``` on root directory
 
 ## Additional features
 
