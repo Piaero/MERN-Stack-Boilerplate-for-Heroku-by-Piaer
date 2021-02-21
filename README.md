@@ -24,7 +24,8 @@
         1) Create in .env file in root directory
         2) Using text editor input your MongoDB URI parameter to MONGODB_URI key (both separated by "="), example:
         MONGODB_URI=mongodb+srv://dbAdmin:TeStURIdsadsa@cluster0-slk2321.mongodb.net/test?retryWrites=true&w=majority
-        3) More info here: https://zellwk.com/blog/crud-express-mongodb/
+        3) Set the URI as parameter of key MONGODB_URI in "Config Vars" in Heroku App settings.
+        4) More info here: https://zellwk.com/blog/crud-express-mongodb/
     **b) if you are hosting database locally:**
 
         1) in backend/server.js file input replace "process.env.MONGODB_URI" in MongoClient.connect() with your database URI 
@@ -51,7 +52,7 @@ Stack is compatible with Heroku.com - free cloud platform allowing to host appli
 
 ## Additional dependencies
 
-* dotenv - stores configuration properties in .env file. In this case we store MongoDB URI key in .env file in root directory. Don't upload that file! You can set the URI in "Config Vars" in Heroku App settings.
+* dotenv - stores configuration properties in .env file. In this case we store MongoDB URI key in .env file in root directory. Don't upload that file!
 * body-parser - parsing middleware. Incoming request bodies are available under the req.body
 * concurrently - allows you to run the React app and Server at the same time
 * nodemon - restarts server on file save (after change)
