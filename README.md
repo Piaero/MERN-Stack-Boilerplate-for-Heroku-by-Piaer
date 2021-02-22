@@ -19,6 +19,7 @@
 3. If you don't have, instal yarn trough npm (you should have installed npm by installing node.js): ```npm install --global yarn```
 4. Run ```yarn install``` command on root directory but also in frontend folder
 5. Database setting:
+
     **a) if you are using Cloud Database (eg. MongoDB Atlas):**
 
         1) Create in .env file in root directory
