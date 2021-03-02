@@ -14,13 +14,13 @@
 
 
 ## Installation
-1. Click on "Use this template" in web version of Github or traditionally clone this repository
+1. Click on "Use this template" in web version of GitHub or traditionally clone this repository
 2. Install Node.js: https://nodejs.org/en/
 3. If you don't have, instal yarn trough npm (you should have installed npm by installing node.js): ```npm install --global yarn```
 4. Run ```yarn install``` command on root directory but also in frontend folder
 5. Database setting:
 
-    **a) if you are using Cloud Database (eg. MongoDB Atlas):**
+    **a) if you are using Cloud Database (e.g. MongoDB Atlas):**
 
         1) Create in .env file in root directory
         2) Using text editor input your MongoDB URI parameter to MONGODB_URI key (both separated by "="), example:
@@ -49,7 +49,7 @@
 
 ## Additional features
 
-Stack is compatible with Heroku.com - free cloud platform allowing to host applications. You can set up deployment to heroku from github. 
+Stack is compatible with Heroku.com - free cloud platform allowing to host applications. You can set up deployment to Heroku from GitHub. 
 
 ## Additional dependencies
 
@@ -70,7 +70,7 @@ Launches only the React app
 
 ### yarn server
 
-Launches only the the server (backend/server.js)
+Launches only the server (backend/server.js)
 
 ## Credits
 
