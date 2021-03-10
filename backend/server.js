@@ -11,15 +11,23 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB Database
-MongoClient.connect(process.env.MONGODB_URI, {
-  useUnifiedTopology: true
-})
-  .then(client => {
-    const db = client.db('your_database_name')
-    const countersCollection = db.collection('your_collection_name')
-    console.log('Connected to Database')
-  })
+const uri = process.env.MONGODB_URI;
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
+client.connect(err => {
+  if (err) throw err;
+  const db = client.db('your_database_name')
+  const countersCollection = db.collection('your_collection_name')
+  console.log('connected to Database')
+});
+
+// Example database call:
+app.get('/test', (req, res) => {
+  client.db('your_database_name').collection('your_collection_name').distinct("_id", function (err, result) {
+    if (err) throw err;
+    res.json(result);
+  });
+});
 
 // Heroku deployment compatibility: 
 if (process.env.NODE_ENV === 'production') {
